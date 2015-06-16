@@ -1,0 +1,19 @@
+{
+  "name": "other",
+  "version": "0.1.0",
+  "authors": [
+    "张彤<zhangtong@youguu.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest"
+  }
+}

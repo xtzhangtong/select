@@ -1,0 +1,63 @@
+
+
+html,body,div,p,ul,li,h1,h2,h3,h4,h5,h6,form,input,select,button,textarea,iframe,table,th,td { margin: 0; padding: 0; }
+body{font-size: 15px; color: #858585;line-height: 26px; -webkit-font-smoothing: antialiased; font-family:"Microsoft Yahei";margin: 0 auto; overflow-y: scroll;display: block;}
+input{border: none;background: none; font-family:"Microsoft Yahei";outline: none;}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #cce6fa inset;
+}
+em{font-style: normal;}
+div,ul,span{display: block; box-sizing: border-box;overflow: hidden;}
+div,nav,span{margin: 0 auto;}
+img{border: 0 none; vertical-align: top; outline: none; cursor: pointer;}
+img a{outline: none;}
+ul,li{list-style-type: none; }
+h1,h2,h3,h4,h5,h6{font-size:14px; font-weight: 100;}
+input,select,button,textarea{font-size: 14px;}
+
+
+/*management*/
+.management h2{font-size: 18px;color: #000; margin-bottom: 35px;}
+.management p{height: 35px;line-height: 35px;}
+
+.management ul{margin: 40px 0 45px 40px;display: block;overflow: inherit;}
+.management ul li{ height:35px;margin-bottom:15px; font-size: 15px;clear: both;display: inline-block;width: 100%;line-height: 35px; }
+.management ul li em:first-child{width: 130px; text-align: right;box-sizing: border-box;float: left;padding-right: 15px;}
+.management ul li em:last-child b{width: 300px; height: 120px;display: block;float: left; border: 1px solid #d2d2d2;margin-right: 10px;}
+.management ul li em:last-child .input{display: inline-block;width: 240px;}
+.management ul li em:last-child .password{display: inline-block;width: 150px;border: 1px solid #d2d2d2;border-right: none; text-indent: 5px; line-height:35px\9;}
+.management ul li em:last-child input[type="button"]{background: #d2d2d2;display: inline-block; width: 90px;height: 37px; cursor: pointer; margin-top:1px; }
+.management ul li i{display: inline-block;}
+.management ul li i:nth-child(1){width: 100px; text-align: right;}
+.management ul li i:nth-child(2){width: 250px;margin: 0 50px 0 2px;text-align: left;color: #000; text-indent: 10px;}
+.management ul li i:nth-child(3){width: 100px;text-align: left;}
+.management ul li i:nth-child(3) a{color: #2ea0e5;}
+.management .change_n{position: relative;  top: -11px;height: 35px;}
+.management .conf{position: relative;  top: 0;height: 35px;}
+.management .change_nick{position: relative;  top: 0;height: 35px;}
+.management .change_nick input{width:100%;height:35px;line-height:39px\9; }
+.management .change_nick #nickname{position: absolute;left: 0;text-indent: 10px;border: 1px solid #fff;}
+.management .change_nick #change_nickname{position: absolute;left: 0;border: 1px solid #d2d2d2;display: none;text-indent: 10px;}
+.management .conf #change_name{position: absolute;left: 0;}
+.management .conf #confirm{position: absolute;left: 0;display: none;}
+.management .conf #cancel{position: absolute;left: 61px;display: none;}
+.management .hidden{display: none;}
+
+.management .text{font-size: 16px;text-align: center; height: 47px;border-radius: 10px; line-height:47px; cursor: pointer;}
+.management .confirm{width: 100px; background: #ffab33;margin:0 0 150px 170px;}
+.management .bind{width: 170px; background: red;margin:0 0 150px 150px;}
+.management .cation{width: 170px; background: #2ea0e5;margin:0 0 150px 200px;}
+.management .bot{width: 170px; background: red; height: 47px;border-radius: 10px; color: #fff; line-height:47px; margin:0 0 150px 150px;cursor: pointer;}
+.management .pot{width: 175px; background: #2ea0e5; height: 47px;border-radius: 10px; color: #fff; line-height:47px; margin:0 0 60px 200px;cursor: pointer;}
+.management .text{font-size: 16px;text-align: center;}
+.management p,.prompt p{width: 99%; background: #fffcdb;border: 1px solid #ffff00;color: #000;}
+/*select*/
+.selectContainer{position:relative; width:240px; background:#FFF; border:1px solid #CCC;float: left;overflow: inherit;}
+.selectContainer .selectOption{ padding:0 5px; line-height:35px; height:35px; white-space:nowrap; overflow:hidden;border:none; width:230px; z-index:1000}
+.selectContainer .shows{width:20px; height:20px; position:absolute; right:2px; top:2px; background:url(../images/bg66b_03.jpg) no-repeat right center}
+.selectContainer ul{position:absolute;width:240px; top:36px; left:-1px; border:1px solid #CCC; border-top:none; display:none;margin: 0; background: #fff;}
+.selectContainer ul li{padding-left:10px; border-bottom:1px dashed #EEE; line-height:25px; width:220px; background:#FFF; cursor:pointer;list-style:none;margin: 0;}
+.selectContainer ul li:hover{background:#F5F5F5;}
+.selectContainer ul.dis{display:block!important;z-index:10000!important}
