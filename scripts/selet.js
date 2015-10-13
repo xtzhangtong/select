@@ -3,7 +3,6 @@
     "use strict";
     jQuery.fn.select = function (data) {
         var $self = this;
-
         cityInfo($self);
         var Oli = $self.find("li");
         $self.bind("click", function (e) {

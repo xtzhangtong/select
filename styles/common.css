@@ -22,9 +22,9 @@ input,select,button,textarea{font-size: 14px;}
 .management h2{font-size: 18px;color: #000; margin-bottom: 35px;}
 .management p{height: 35px;line-height: 35px;}
 
-.management ul{margin: 40px 0 45px 40px;display: block;overflow: inherit;}
+.management ul{margin: 10px 0 15px 10px;display: block;overflow: inherit;}
 .management ul li{ height:35px;margin-bottom:15px; font-size: 15px;clear: both;display: inline-block;width: 100%;line-height: 35px; }
-.management ul li em:first-child{width: 130px; text-align: right;box-sizing: border-box;float: left;padding-right: 15px;}
+.management ul li em:first-child{width: 80px; text-align: right;box-sizing: border-box;float: left;padding-right: 15px;}
 .management ul li em:last-child b{width: 300px; height: 120px;display: block;float: left; border: 1px solid #d2d2d2;margin-right: 10px;}
 .management ul li em:last-child .input{display: inline-block;width: 240px;}
 .management ul li em:last-child .password{display: inline-block;width: 150px;border: 1px solid #d2d2d2;border-right: none; text-indent: 5px; line-height:35px\9;}
@@ -54,8 +54,8 @@ input,select,button,textarea{font-size: 14px;}
 .management .text{font-size: 16px;text-align: center;}
 .management p,.prompt p{width: 99%; background: #fffcdb;border: 1px solid #ffff00;color: #000;}
 /*select*/
-.selectContainer{position:relative; width:240px; background:#FFF; border:1px solid #CCC;float: left;overflow: inherit;}
-.selectContainer .selectOption{ padding:0 5px; line-height:35px; height:35px; white-space:nowrap; overflow:hidden;border:none; width:230px; z-index:1000}
+.selectContainer{position:relative; width:100px; background:#FFF; border:1px solid #CCC;float: left;overflow: inherit;}
+.selectContainer .selectOption{ padding:0 5px; line-height:35px; height:35px; white-space:nowrap; overflow:hidden;border:none; width:130px; z-index:1000}
 .selectContainer .shows{width:20px; height:20px; position:absolute; right:2px; top:2px; background:url(../images/bg66b_03.jpg) no-repeat right center}
 .selectContainer ul{position:absolute;width:240px; top:36px; left:-1px; border:1px solid #CCC; border-top:none; display:none;margin: 0; background: #fff;}
 .selectContainer ul li{padding-left:10px; border-bottom:1px dashed #EEE; line-height:25px; width:220px; background:#FFF; cursor:pointer;list-style:none;margin: 0;}
